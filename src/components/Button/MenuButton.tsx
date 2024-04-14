@@ -16,7 +16,7 @@ const MenuBottom: React.FC = () => {
 
   return (
     <div className={StylesComponents.bottomMenu2}>
-      <TabMenu model={items} activeIndex={activeIndex} onTabChange={(e) => setActiveIndex(e.index)} />
+      <TabMenu model={items} className="pi pi-check" activeIndex={activeIndex} onTabChange={(e) => setActiveIndex(e.index)} />
     </div>
   );
 }

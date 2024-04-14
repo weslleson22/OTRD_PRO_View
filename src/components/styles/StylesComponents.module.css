@@ -157,5 +157,9 @@
   justify-content: center; /* Centraliza horizontalmente */
   z-index: 999;
 }
+.TextNotas{
+  text-align: justify;
+  font-family: 'Roboto', sans-serif; /* Aplica a fonte Roboto */
 
+}
 
