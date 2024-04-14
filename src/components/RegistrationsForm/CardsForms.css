@@ -1,0 +1,21 @@
+.CardsForms {
+  width: 353px;
+  height: 98px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  box-shadow: 2px 0px 10px rgba(3, 3, 3, 0.1);
+  margin-top: 32px;
+  margin-left: auto; /* Centraliza horizontalmente */
+  margin-right: auto; /* Centraliza horizontalmente */
+}
+
+
+.CardsForms__DescriptionCard {
+  /* Estilos específicos para DescriptionCard */
+  margin-top: 5px;
+}
+
+.CardsForms__InputsCamp {
+  /* Estilos específicos para InputsCamp */
+  margin-top: 5px;
+}

@@ -1,0 +1,60 @@
+.formsContainer {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  width: 100%; /* Garante que a linha ocupe toda a largura */
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+  margin-bottom: 10px; /* Você pode ajustar esta margem para alterar a distância vertical entre os containers */
+}
+
+.label {
+  color: #030303;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 152px;
+  height: 51px;
+  padding: 0px 8px;
+  margin-right: 25px; /* Adiciona espaçamento entre os inputs */
+  border: 0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  box-shadow: 2px 2px 4px rgba(3, 3, 3, 0.1);
+  background-color: #ffffff;
+  color: #a9a9a9;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 19px;
+  outline: none;
+}
+
+
+/* Map.module.css */
+.mapContainer {
+  width: 100%;
+  height: 400px;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+}
+
+

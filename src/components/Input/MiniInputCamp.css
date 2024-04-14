@@ -1,0 +1,35 @@
+.MiniInputCampContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .MiniInputCampContainer.inline {
+    flex-direction: row;
+  }
+  
+  .MiniInputCampDescription {
+    margin-bottom: 4px; /* Adiciona uma margem abaixo da descrição */
+    font-weight: bold; /* Deixa o texto em negrito */
+  }
+  
+  .MiniInputCamp {
+    width: 148px;
+    height: 42px;
+    padding: 0px 8px;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px rgba(3,3,3,0.1);
+    background-color: #ffffff;
+    color: #a9a9a9;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 19px;
+    outline: none;
+  }
+  
+  .MiniInputCamp.inline {
+    margin-right: 20px; /* Adiciona margem à direita para os inputs em linha */
+  }
+  

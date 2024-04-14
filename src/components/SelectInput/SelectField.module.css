@@ -1,0 +1,24 @@
+/* SelectField.module.css */
+.SelectContainer {
+    width: 100%; /* Ocupa toda a largura do contêiner pai */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+  }
+  
+  .Select {
+    width: 327px; /* Mesma largura do input */
+    height: 46px;
+    padding: 0px 8px;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px rgba(3, 3, 3, 0.1);
+    background-color: #ffffff;
+    color: #a9a9a9;
+    font-size: 16px;
+    font-family: 'Roboto';
+    line-height: 18px;
+    outline: none;
+    margin-top: 10px;
+  }
+  

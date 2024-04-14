@@ -1,0 +1,53 @@
+.CardAddress {
+    width: 343px;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 2px;
+    box-shadow: 2px 0px 10px rgba(3, 3, 3, 0.1);
+    padding: 20px; /* Espaçamento interno */
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-bottom: 10px; /* Espaçamento entre as linhas */
+  }
+  
+  .column {
+    flex: 1;
+    
+    padding: 0 10px; /* Espaçamento interno das colunas */
+  }
+  
+  .Label {
+    color: #030303;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: 16px;
+    
+    margin-bottom: 5px; /* Espaçamento inferior */
+  }
+  
+  .Input {
+    margin-top: 10px;
+    width: 100%;
+    height: 42px;
+    padding: 0px 8px;
+    border: 0;
+    box-sizing: borde r-box;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px rgba(3, 3, 3, 0.1);
+    background-color: #ffffff;
+    color: #a9a9a9;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 19px;
+    outline: none;
+    margin-bottom: 10px; /* Espaçamento inferior */
+  }
+  
