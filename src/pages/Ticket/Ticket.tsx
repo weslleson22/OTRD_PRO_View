@@ -9,6 +9,9 @@ import StylesComponents from '../../components/styles/StylesComponents.module.cs
 import { Link } from "react-router-dom";
 import FormsTicket from "./components/FormsTicket";
 
+import { Tag } from 'primereact/tag';
+        
+
 function Ticket (){
     return(
 
@@ -30,13 +33,22 @@ function Ticket (){
             <InputsCamp text="Novo/Aberto/Fechado"></InputsCamp>
             
             <FormsTicket
-                label1="Recuperação"
+                label1="Idade"
                 placeholder1="8 horas"
-                label2="Prazo de Solução"
-                placeholder2="-10 d 17h 31m"
+                label2="Criado"
+                placeholder2="29/03/2024 22:43"
                 />
 
             
+            <InfoCard text="Acordo de nivel de Serviço (SLA)"></InfoCard>
+
+            
+            <FormsTicket
+                label1="Recuperação"
+                placeholder1="8 horas"
+                label2="Criado"
+                placeholder2="-10 d 17h 31m"
+                />
             <DescriptionCard text="Criticidade"></DescriptionCard>
             <InputsCamp text="Muito Baixo"></InputsCamp>
             <InfoCard text="Problema (Evento)"></InfoCard>
@@ -58,6 +70,17 @@ function Ticket (){
             <InfoCard text="Evento do Mapa"></InfoCard>
            
             <InfoCard text="Solução"></InfoCard>
+            <DescriptionCard text="Tags:"></DescriptionCard>
+            
+            <div className={StylesComponents.card}>
+                <Tag value="Agendado"></Tag>
+                <Tag severity="success" value="Resolvido"></Tag>
+                <Tag severity="info" value="Aviso"></Tag>
+                <Tag severity="warning" value="Atenuação"></Tag>
+                <Tag severity="danger" value="Rompimento"></Tag>
+            
+        </div> 
+        
 
             <InfoCard text="Notas:"></InfoCard>
 

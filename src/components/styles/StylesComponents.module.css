@@ -115,3 +115,18 @@
   justify-content: center;
 }
 
+/* styles.module.css */
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card > * {
+  margin-right: 0.5rem;
+}
+
+.card > *:last-child {
+  margin-right: 0;
+}
