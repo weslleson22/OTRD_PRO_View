@@ -1,19 +1,21 @@
 import React, { useState } from 'react';
 import { TabMenu } from 'primereact/tabmenu';
+import { PrimeIcons } from 'primereact/api';
+import StylesComponents from '../../components/styles/StylesComponents.module.css';
 
 const MenuBottom: React.FC = () => {
-  const [activeIndex, setActiveIndex] = useState(0); // Defina o índice ativo inicial aqui
+  const [activeIndex, setActiveIndex] = useState(0);
 
   const items = [
-    { label: 'Home', icon: '' },
-    { label: 'Calendar', icon: 'pi pi-fw pi-calendar' },
-    { label: 'Edit', icon: 'pi pi-fw pi-pencil' },
-    { label: 'Documentation', icon: 'pi pi-fw pi-file' },
-    { label: 'Settings', icon: 'pi pi-fw pi-cog' }
+    { label: 'Home', icon: PrimeIcons.PLUS },
+    { label: 'Calendar', icon: 'pi pi-calendar' },
+    { label: 'Edit', icon: 'pi pi-pencil' },
+    { label: 'Documentation', icon: 'pi pi-file' },
+    { label: 'Settings', icon: 'pi pi-cog' }
   ];
 
   return (
-    <div style={{ position: 'fixed', bottom: 0, width: '100%', zIndex: 999 }}>
+    <div className={StylesComponents.bottomMenu2}>
       <TabMenu model={items} activeIndex={activeIndex} onTabChange={(e) => setActiveIndex(e.index)} />
     </div>
   );

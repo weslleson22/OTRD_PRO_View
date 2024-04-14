@@ -147,3 +147,15 @@
   text-decoration: none;
   margin: 0 10px;
 }
+
+
+.bottomMenu2 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  z-index: 999;
+}
+
+
