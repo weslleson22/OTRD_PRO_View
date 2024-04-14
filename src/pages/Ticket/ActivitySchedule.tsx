@@ -12,6 +12,7 @@ import { Link } from "react-router-dom";
 
 import StylesComponents from '../../components/styles/StylesComponents.module.css';
 import ButtonForms from "../../components/Button/ButtonForms";
+import MenuBottom from "../../components/Button/MenuButton";
 
 function ActivitySchedule(){
     const options = ['Pós-Falha', 'Preventiva'];
@@ -49,6 +50,7 @@ function ActivitySchedule(){
           <ButtonForms></ButtonForms>
         </Link>
         </div>
+        <MenuBottom></MenuBottom>
         </div>
     )
 }

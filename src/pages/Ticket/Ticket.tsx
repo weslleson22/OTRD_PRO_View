@@ -10,6 +10,7 @@ import { Link } from "react-router-dom";
 import FormsTicket from "./components/FormsTicket";
 
 import { Tag } from 'primereact/tag';
+import MenuBottom from "../../components/Button/MenuButton";
         
 
 function Ticket (){
@@ -90,9 +91,12 @@ function Ticket (){
                 <Link to="/Activity-Schedule">
                 <ButtonForms></ButtonForms>
                 </Link>
+
+
+            
            </div>
 
-
+        <MenuBottom></MenuBottom>
         
         </div>
     )

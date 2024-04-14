@@ -78,12 +78,13 @@
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  line-height: 20px;
+  line-height: 0px;
   outline: none;
   margin-left: auto; /* Define a margem esquerda como "auto" para centralizar */
   margin-right: auto; /* Define a margem direita como "auto" para centralizar */
-  margin-bottom: 20px; /* Espaço na parte inferior */
+  margin-bottom: 40px; /* Espaço na parte inferior */
   margin-top: 20px;
+  
 }
 /* InputNotas.module.css */
 .InputNotas {
@@ -129,4 +130,20 @@
 
 .card > *:last-child {
   margin-right: 0;
+}
+
+
+.bottomMenu {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.bottomMenu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
 }
