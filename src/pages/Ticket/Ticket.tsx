@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import TextTitle from "../../components/TopTex/TextTitle";
 import SubTitle from "../../components/TopTex/SubTitle";
 import InfoCard from "../../components/TopTex/InforCard";
@@ -8,15 +8,17 @@ import ButtonForms from "../../components/Button/ButtonForms";
 import StylesComponents from '../../components/styles/StylesComponents.module.css';
 import { Link } from "react-router-dom";
 import FormsTicket from "./components/FormsTicket";
+import { Calendar } from 'primereact/calendar';
 
 import { Tag } from 'primereact/tag';
 import MenuBottom from "../../components/Button/MenuButton";
 
 
 import { Accordion, AccordionTab } from 'primereact/accordion';
-        
 
 function Ticket (){
+    const [date, setDate] = useState(null);      
+
     return(
 
         <div>
@@ -74,6 +76,9 @@ function Ticket (){
             <InfoCard text="Evento do Mapa"></InfoCard>
            
             <InfoCard text="Solução"></InfoCard>
+            <div className="card flex justify-content-center">
+            <Calendar value={date} showIcon />
+            </div>
             <DescriptionCard text="Tags:"></DescriptionCard>
             
             <div className={StylesComponents.card}>

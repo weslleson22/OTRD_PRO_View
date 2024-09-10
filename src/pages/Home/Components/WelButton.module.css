@@ -1,0 +1,17 @@
+.Button {
+    cursor: pointer;
+    width: 327px;
+    height: 52px;
+    padding: 0px 8px;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #067164;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Sora';
+    font-weight: 600;
+    line-height: 20px;
+    outline: none;
+  }
+  

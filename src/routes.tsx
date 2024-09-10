@@ -5,12 +5,15 @@ import Register_User_registrarion from './pages/Register/Register_User_Registrat
 import Create_an_Acconunt from './pages/Create_an_Account/Create_an_Acconut';
 import Ticket from './pages/Ticket/Ticket';
 import ActivitySchedule from './pages/Ticket/ActivitySchedule';
+import Welcome from './pages/Home/Welcome';
 
 function Rotas() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<RegisterHome />} />
+        
+        <Route path="/" element={<Welcome/>} />
+        <Route path="/RegisterHome" element={<RegisterHome />} />
         <Route path="/Register" element={<Register_User_registrarion />} />
         <Route path="/Create-an-Account" element={<Create_an_Acconunt/>}/>
         <Route path="/Ticket" element={<Ticket/>}/>

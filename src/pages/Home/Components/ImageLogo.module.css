@@ -1,0 +1,14 @@
+.ImageContainer {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  position: relative; /* Permite usar o posicionamento absoluto para o logo */
+  top: 50px; /* Posiciona 50px do topo */
+  height: calc(100vh - 50px); /* Define a altura total da tela menos 50px do topo */
+}
+
+.LogoImage {
+  width: 325px;
+  height: 71px;
+  /* Adicione outros estilos conforme necessário */
+}
